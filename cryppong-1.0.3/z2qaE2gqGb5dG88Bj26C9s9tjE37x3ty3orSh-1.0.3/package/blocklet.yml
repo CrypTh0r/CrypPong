@@ -1,0 +1,27 @@
+did: z2qaE2gqGb5dG88Bj26C9s9tjE37x3ty3orSh
+name: z2qaE2gqGb5dG88Bj26C9s9tjE37x3ty3orSh
+title: CrypPong
+description: Pong Game - part of CrypThor ArcAde Saga
+version: 1.0.3
+logo: logo.png
+components: []
+files:
+  - screenshots
+screenshots:
+  - f447926ec6855cf535a7e3a2649b8302.jpeg
+  - 6cf0d20f6a9316728b9c6b05820e4d7d.jpeg
+main: main
+engine:
+  interpreter: blocklet
+  source:
+    store: https://store.blocklet.dev
+    name: z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g
+    version: latest
+interfaces:
+  - name: publicUrl
+    path: /
+    port: BLOCKLET_PORT
+    prefix: '*'
+    protocol: tcp
+    type: web
+specVersion: 1.0.0
